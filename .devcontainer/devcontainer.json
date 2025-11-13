@@ -1,0 +1,14 @@
+{
+  "name": "Devcontainer",
+  "image": "ghcr.io/codesandbox/devcontainers/universal:latest",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss"
+      ]
+    }
+  }
+}
