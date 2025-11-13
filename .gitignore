@@ -21,7 +21,6 @@ coverage.xml
 .mypy_cache/
 .pytest_cache/
 .hypothesis/
-data.db
 
 # Node / React / Vite
 node_modules/
