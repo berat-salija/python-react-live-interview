@@ -10,10 +10,7 @@
     "start-backend": {
       "name": "start-backend",
       "command": "cd backend && uvicorn main:app --host 0.0.0.0 --port 8000 --reload",
-      "runAtStart": true,
-      "preview": {
-        "port": 8000
-      }
+      "runAtStart": true
     },
     "start-frontend": {
       "name": "start-frontend",
