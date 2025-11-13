@@ -40,7 +40,7 @@ def list_products(
             "id": product.id,
             "name": product.name,
             "description": product.description,
-            "category": product.category.name,
+            "category": product.category_id,
             "price": product.price,
         }
         for product in results
