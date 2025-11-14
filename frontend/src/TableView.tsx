@@ -28,6 +28,13 @@ const columns: ColumnDef<Product>[] = [
     ),
   },
   {
+    accessorKey: "description",
+    header: "Description",
+    cell: (info) => (
+      <div className="font-medium">{info.getValue() as string}</div>
+    ),
+  },
+  {
     accessorKey: "category",
     header: "Category",
   },

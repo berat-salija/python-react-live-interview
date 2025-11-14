@@ -21,7 +21,7 @@ docker compose up --build
 | **3** | Add an `available` boolean to the API response based on inventory quantity for the selected country. Show a badge in the table view. |
 | **4** | Enable search across relevant fields and tables. Re-add the search input in the table view.                                          |
 | **5** | Implement infinite scroll in `frontend/src/ScrollView.tsx`.                                                                          |
-| **6** | Review and optimize `backend/Dockerfile` for production.                                                                             |
+| **6** | Review and optimize `backend/Dockerfile.prod` for production.                                                                        |
 
 ---
 
